@@ -171,13 +171,13 @@ decrypt_and_run()
 """
 
     ob_lo = oblo(loader)
-    output_file = os.path.splitext(input_file)[0] + '_noobhackerenc.py'
+    output_file = os.path.splitext(input_file)[0] + '_enc.py'
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(ob_lo)
     
-    print(f"فایل  ذخیره شد: {output_file}")
+    print(f"save in: {output_file}")
 
 if __name__ == "__main__":
-    input_file = input("مسیر کامل فایل پایتون رو وارد کن (مثلا C:/path/to/test.py): ")
-    password = input("یه رمز قوی وارد کن: ")
+    input_file = input("Enter the path to your Python file. ex: C:/path/to/test.py): ")
+    password = input("enter your password")
     prpf(input_file, password)
