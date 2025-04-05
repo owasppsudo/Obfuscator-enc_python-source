@@ -1,5 +1,6 @@
 the best encrypter and obfuscator python script 100% safe 
 
+It is guaranteed that with this tool, no one can access your original code, and decrypting it is impossible if you use a good password (16 characters).
 features:
 
 Multi-stage encryption with various algorithms:
