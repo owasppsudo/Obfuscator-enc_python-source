@@ -41,7 +41,10 @@ Checking execution time to detect debugging pauses.
 Usage:
 
 1.Run the script. 
+ git clone https://github.com/owasppsudo/Obfuscator-enc_python-source 
 
+ cd Obfuscator-enc_python-source
+ python3 Main.py
 2.Enter the full path to the file, for example: C:/Users/YourName/test.py 
 
 3.Enter the password. 
